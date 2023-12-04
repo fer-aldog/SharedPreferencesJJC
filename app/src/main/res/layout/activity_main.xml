@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEAEA"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/backgroundLL"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <TextView
+        android:id="@+id/colorTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's change some backgrounds!"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"/>
+
+    <Button
+        android:id="@+id/orangeBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pearl orange"
+        android:textColor="#C35831"
+        android:textSize="17sp"
+        app:backgroundTint="#EDA88E"
+        app:cornerRadius="10sp" />
+
+    <Button
+        android:id="@+id/blueBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Azure blue"
+        android:textColor="#025669"
+        android:textSize="17sp"
+        app:backgroundTint="#26BBDD"
+        app:cornerRadius="10sp" />
+
+    <Button
+        android:id="@+id/greyBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slate grey"
+        android:textColor="#434750"
+        android:textSize="17sp"
+        app:backgroundTint="#99A0AF"
+        app:cornerRadius="10sp" />
+
+</LinearLayout>
